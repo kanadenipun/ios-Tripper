@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E636F0F71F247C9900111546 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636F0F61F247C9900111546 /* CustomTableViewCell.swift */; };
+		E636F0FB1F24A2F300111546 /* ShowTripsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E636F0FA1F24A2F300111546 /* ShowTripsViewController.swift */; };
 		E68F70521F1B6BBE00FE4857 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68F70511F1B6BBE00FE4857 /* AppDelegate.swift */; };
-		E68F70541F1B6BBE00FE4857 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68F70531F1B6BBE00FE4857 /* ViewController.swift */; };
+		E68F70541F1B6BBE00FE4857 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68F70531F1B6BBE00FE4857 /* HomeViewController.swift */; };
 		E68F70571F1B6BBE00FE4857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68F70551F1B6BBE00FE4857 /* Main.storyboard */; };
 		E68F705A1F1B6BBE00FE4857 /* Tripper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E68F70581F1B6BBE00FE4857 /* Tripper.xcdatamodeld */; };
 		E68F705C1F1B6BBE00FE4857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68F705B1F1B6BBE00FE4857 /* Assets.xcassets */; };
 		E68F705F1F1B6BBE00FE4857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68F705D1F1B6BBE00FE4857 /* LaunchScreen.storyboard */; };
 		E68F706A1F1B6BBF00FE4857 /* TripperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68F70691F1B6BBF00FE4857 /* TripperTests.swift */; };
+		E68F70751F1B792400FE4857 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68F70741F1B792400FE4857 /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E636F0F61F247C9900111546 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		E636F0FA1F24A2F300111546 /* ShowTripsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTripsViewController.swift; sourceTree = "<group>"; };
 		E68F704E1F1B6BBE00FE4857 /* Tripper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tripper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68F70511F1B6BBE00FE4857 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E68F70531F1B6BBE00FE4857 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E68F70531F1B6BBE00FE4857 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E68F70561F1B6BBE00FE4857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E68F70591F1B6BBE00FE4857 /* Tripper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tripper.xcdatamodel; sourceTree = "<group>"; };
 		E68F705B1F1B6BBE00FE4857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +43,7 @@
 		E68F70651F1B6BBF00FE4857 /* TripperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68F70691F1B6BBF00FE4857 /* TripperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripperTests.swift; sourceTree = "<group>"; };
 		E68F706B1F1B6BBF00FE4857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E68F70741F1B792400FE4857 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +86,15 @@
 			isa = PBXGroup;
 			children = (
 				E68F70511F1B6BBE00FE4857 /* AppDelegate.swift */,
-				E68F70531F1B6BBE00FE4857 /* ViewController.swift */,
+				E68F70741F1B792400FE4857 /* AddViewController.swift */,
+				E68F70531F1B6BBE00FE4857 /* HomeViewController.swift */,
+				E636F0FA1F24A2F300111546 /* ShowTripsViewController.swift */,
+				E636F0F61F247C9900111546 /* CustomTableViewCell.swift */,
 				E68F70551F1B6BBE00FE4857 /* Main.storyboard */,
-				E68F705B1F1B6BBE00FE4857 /* Assets.xcassets */,
 				E68F705D1F1B6BBE00FE4857 /* LaunchScreen.storyboard */,
-				E68F70601F1B6BBE00FE4857 /* Info.plist */,
 				E68F70581F1B6BBE00FE4857 /* Tripper.xcdatamodeld */,
+				E68F705B1F1B6BBE00FE4857 /* Assets.xcassets */,
+				E68F70601F1B6BBE00FE4857 /* Info.plist */,
 			);
 			path = Tripper;
 			sourceTree = "<group>";
@@ -202,8 +211,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E68F70541F1B6BBE00FE4857 /* ViewController.swift in Sources */,
+				E68F70541F1B6BBE00FE4857 /* HomeViewController.swift in Sources */,
+				E636F0F71F247C9900111546 /* CustomTableViewCell.swift in Sources */,
+				E636F0FB1F24A2F300111546 /* ShowTripsViewController.swift in Sources */,
 				E68F705A1F1B6BBE00FE4857 /* Tripper.xcdatamodeld in Sources */,
+				E68F70751F1B792400FE4857 /* AddViewController.swift in Sources */,
 				E68F70521F1B6BBE00FE4857 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +424,7 @@
 				E68F70701F1B6BBF00FE4857 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E68F70711F1B6BBF00FE4857 /* Build configuration list for PBXNativeTarget "TripperTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				E68F70731F1B6BBF00FE4857 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
